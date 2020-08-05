@@ -1,9 +1,15 @@
-import React from "react";
+import React, { Component, Fragment } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import SingleImageUpload from "./container/singleImageUpload/SingleImageUpload";
+import SingleUpload from "./container/SingleUpload/SingleUpload";
 
-const App = () => {
-   return <SingleImageUpload />;
-};
+class App extends Component {
+   render() {
+      return (
+         <Fragment>
+            <SingleUpload />
+         </Fragment>
+      );
+   }
+}
 
 export default App;
