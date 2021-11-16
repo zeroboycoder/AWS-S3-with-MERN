@@ -12,7 +12,7 @@
    "author": "ZeroBoy",
    "license": "ISC",
    "dependencies": {
-      "aws-sdk": "^2.725.0",
+      "aws-sdk": "^2.814.0",
       "concurrently": "^5.2.0",
       "dotenv": "^8.2.0",
       "express": "^4.17.1",
